@@ -1,0 +1,17 @@
+{
+  "name": "interfaceos",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.29.8"
+  },
+  "scripts": {
+    "build": "npm -w @interfaceos/react run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "changeset publish"
+  }
+}
