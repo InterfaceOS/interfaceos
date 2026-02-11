@@ -9,7 +9,7 @@
     "@changesets/cli": "^2.29.8"
   },
   "scripts": {
-    "build": "npm -w @interfaceos/react run build",
+    "build": "npm -w @interfacebook/react run build",
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "changeset publish"

@@ -1,4 +1,4 @@
-import { Button } from "@interfaceos/react";
+import { Button } from "@interfacebook/react";
 
 export default function Home() {
   return (

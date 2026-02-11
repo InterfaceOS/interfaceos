@@ -45,13 +45,13 @@ Everything is designed with scalability, accessibility, and long-term maintainab
 ## Installation
 
 ```bash
-npm install @interfaceos/react
+npm install @interfacebook/react
 ```
 
 Use components in your app:
 
 ```tsx
-import { Button } from "@interfaceos/react"
+import { Button } from "@interfacebook/react"
 
 export default function Page() {
   return <Button>Ship it</Button>
@@ -82,7 +82,7 @@ apps/
   playground/   → Local Next.js app for testing components in a real environment
 
 packages/
-  react/        → @interfaceos/react component library
+  react/        → @interfacebook/react component library
 ```
 
 The playground lets components be developed inside an actual app, not just isolated demos.
@@ -100,7 +100,7 @@ npm install
 Run the component library in watch mode:
 
 ```bash
-npm run dev -w @interfaceos/react
+npm run dev -w @interfacebook/react
 ```
 
 Run the playground app:
